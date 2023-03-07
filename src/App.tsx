@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import axios from "axios";
 import { Repo } from "./components/RepoCard";
 
-const [username, setUsername] = createSignal("öladokun-olayiwola")
+const [username, setUsername] = createSignal("oladokun-olayiwola")
 const [repos, setRepos] = createSignal([])
 // const [savedRepos, setsavedRepos] = createSignal([Repo])
 

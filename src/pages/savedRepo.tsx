@@ -10,7 +10,7 @@ const [savedRepos, setSavedRepos] = createSignal(
 
 const savedRepo: Component = () => {
   return (
-    <div>
+    <div class="m-4">
       <h2>Your saved repos</h2>
       <For each={savedRepos()}>{(repo: Repo) => <RepoCard repo={repo} />}</For>
     </div>

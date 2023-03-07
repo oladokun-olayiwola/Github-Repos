@@ -12,9 +12,9 @@ const refetchWithUsername = (event: Event) => {
 
 const Home: Component = () => {
     return (
-      <div>
+      <div class='m-4 text-center'>
         <h2>Home</h2>
-        <form class="mb-3" onSubmit={(event) => refetchWithUsername(event)}>
+        <form class="mb-3 " onSubmit={(event) => refetchWithUsername(event)}>
           <input
             type="text"
             class="p-1 align-middle"
@@ -23,7 +23,7 @@ const Home: Component = () => {
             required
           />
 
-          <button class="btn btn-dark ms-3 w-auto" onClick={(e) => refetchWithUsername(e)}>
+          <button class="btn btn-dark ms-3 w-auto text-center" onClick={(e) => refetchWithUsername(e)}>
             Fetch
           </button>
         </form>
